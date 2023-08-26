@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#listAdd {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#listAdd li {
+    margin: 5px 0;
+}
+
+.concluida {
+    text-decoration: line-through;
+}
